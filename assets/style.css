@@ -1,15 +1,27 @@
 body{
     background-color: black;
-    color: oldlace;
+    color: goldenrod;
 }
 
 .gif{
-    border: 2px solid oldlace;
-    margin: 10px;
+    border: 2px solid goldenrod;
+    margin: 20px;
+    background-color: oldlace;
+    padding-bottom: 10px
 }
 
 .button-field{
     margin: 20px;
+}
+
+button, #addCharacter{
+    background-color: goldenrod;
+    margin: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: oldlace;
 }
 
 #addCharacter{
@@ -18,4 +30,17 @@ body{
 
 h1{
     font-family: 'Cinzel Decorative', cursive;
+    margin-top: 20px;
+    background-color: oldlace;
+    border: 2px solid goldenrod;
+    padding: 10px 0 10px 0;
+}
+
+#addCharacter:hover{
+    cursor: pointer;
+    color: oldlace;
+}
+
+.userInput{
+    background-color: oldlace;
 }
